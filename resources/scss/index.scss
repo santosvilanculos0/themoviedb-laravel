@@ -1,0 +1,45 @@
+@use '@tabler/core/dist/css/tabler.min.css';
+@use '@tabler/core/dist/css/tabler-flags.min.css';
+@use '@tabler/core/dist/css/tabler-payments.min.css';
+@use '@tabler/core/dist/css/tabler-vendors.min.css';
+@use 'tom-select/dist/css/tom-select.min.css';
+
+* {
+    overscroll-behavior: contain;
+}
+
+:root {
+    --tblr-font-sans-serif: 'Inter', system-ui;
+}
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body {
+    font-feature-settings: 'cv03', 'cv04', 'cv11';
+}
+
+[data-bs-theme='light'] {
+    color-scheme: dark;
+}
+
+[data-bs-theme='dark'] {
+    color-scheme: dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+p,
+figcaption {
+    text-wrap: pretty;
+}

@@ -1,0 +1,46 @@
+https://api.themoviedb.org/3/movie/343611?api_key=API_KEY
+
+array:4 [▼ // app/Http/Controllers/IndexController.php:32
+  "page" => 1
+  "results" => array:3 [▼
+    0 => array:14 [▼
+      "adult" => false
+      "backdrop_path" => "/iwvP8XVpYVmJ3xfF9xdBi5uAOWl.jpg"
+      "genre_ids" => array:4 [▶]
+      "id" => 75780
+      "original_language" => "en"
+      "original_title" => "Jack Reacher"
+      "overview" => "One morning in an ordinary town, five people are shot dead in a seemingly random attack. All evidence points to a single suspect: an ex-military sniper who is q
+ ▶
+"
+      "popularity" => 93.01
+      "poster_path" => "/uQBbjrLVsUibWxNDGA4Czzo8lwz.jpg"
+      "release_date" => "2012-12-20"
+      "title" => "Jack Reacher"
+      "video" => false
+      "vote_average" => 6.6
+      "vote_count" => 6931
+    ]
+    1 => array:14 [▼
+      "adult" => false
+      "backdrop_path" => "/ww1eIoywghjoMzRLRIcbJLuKnJH.jpg"
+      "genre_ids" => array:2 [▶]
+      "id" => 343611
+      "original_language" => "en"
+      "original_title" => "Jack Reacher: Never Go Back"
+      "overview" => "When Major Susan Turner is arrested for treason, ex-investigator Jack Reacher undertakes the challenging task to prove her innocence and ends up exposing a shoc
+ ▶
+"
+      "popularity" => 51.123
+      "poster_path" => "/cOg3UT2NYWHZxp41vpxAnVCOC4M.jpg"
+      "release_date" => "2016-10-19"
+      "title" => "Jack Reacher: Never Go Back"
+      "video" => false
+      "vote_average" => 6.0
+      "vote_count" => 4821
+    ]
+    2 => array:14 [▶]
+  ]
+  "total_pages" => 1
+  "total_results" => 3
+]

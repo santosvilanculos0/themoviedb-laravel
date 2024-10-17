@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@alpinejs/mask": "^3.14.3",
+        "@tabler/core": "1.0.0-beta21",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.7",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.0.5",
+        "postcss": "^8.4.47",
+        "sass": "^1.79.5",
+        "tailwindcss": "^3.4.14",
+        "tom-select": "^2.3.1",
+        "vite": "^5.4.9"
+    },
+    "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4"
+}
