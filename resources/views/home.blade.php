@@ -122,7 +122,8 @@
                             <ul class="pagination ms-auto">
                                 <li class="page-item">
                                     <a @class(['page-link', 'disabled' => $previous_disabled]) @disabled($previous_disabled)
-                                        href="{{ route('home', ['page' => $previous_page]) }}" tabindex="-1">
+                                        href="{{ route('home', ['page' => $previous_page, 'query' => request()->get('query')]) }}"
+                                        tabindex="-1">
                                         <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                                             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -134,7 +135,8 @@
                                     </a>
                                 </li>
                                 <li class="page-item">
-                                    <a @class(['page-link', 'disabled' => $next_disabled]) href="{{ route('home', ['page' => $next_page]) }}"
+                                    <a @class(['page-link', 'disabled' => $next_disabled])
+                                        href="{{ route('home', ['page' => $next_page, 'query' => request()->get('query')]) }}"
                                         @disabled($next_disabled)>
                                         Proxima
                                         <!-- Download SVG icon from http://tabler-icons.io/i/chevron-right -->
