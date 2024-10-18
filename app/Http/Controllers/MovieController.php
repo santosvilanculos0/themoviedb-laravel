@@ -14,8 +14,6 @@ class MovieController extends Controller
         $apiUrl = "https://api.themoviedb.org/3/movie/" . $id . "?language=pt&api_key=" . config('services.tmdb.key');
 
 
-
-
         $client = new Client([
             'accept' => 'application/json',
             'Authorization' => "Bearer " . config('services.tmdb.read_key')
@@ -29,9 +27,8 @@ class MovieController extends Controller
             // Get the response body as an array
             $data = json_decode($response->getBody(), true);
 
-
-
             return view('movies.show', ['data' => $data]);
+
         } catch (\Exception $e) {
             return view('error', ['error' => $e->getMessage()]);
         }

@@ -17,7 +17,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row mb-4">
                         <div class="col-12">
                             <div class="datagrid">
                                 <div class="datagrid-item">
@@ -126,6 +126,12 @@
                                     <div class="datagrid-content">{{ $data['status'] }}</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-secondary text-sm">{{ $data['overview'] }}</p>
                         </div>
                     </div>
                 </div>
